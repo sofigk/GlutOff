@@ -1,0 +1,80 @@
+.fondo1 {
+    background-color: rgb(203, 97, 32)
+}
+
+
+
+.fondo2 {
+     background-color: rgb(172, 139, 129)
+}
+
+.fondo3 {
+ background-color: rgb(186, 120, 85)
+}
+
+.fondo4{
+    background-color: rgb(216, 216, 216)
+}
+
+
+
+
+h1{
+    width: 100px;
+    height: 100px;
+    background: url(../imagenes/logo.png);
+    font-size: 0
+  
+}
+
+.carousel carousel-item{
+ 
+    transition-duration: 0.6s
+}
+
+h2{
+    font-family:Ailerons;
+    
+}
+
+#Pregunta{
+    font-size: 40px;
+    font-family: JosefinSans;
+    text-align: center
+        
+}
+
+article{
+    overflow: hidden
+}
+p{
+    font-family: JosefinSans;
+     font-size: 20px
+}
+li{
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+#galeria{
+    margin-bottom: 10px
+}
+
+@font-face {
+  font-family: JosefinSans;
+  src: url("../fonts/JosefinSans.ttf");
+
+}
+
+
+@font-face {
+  font-family: Ailerons;
+  src: url("../fonts/Ailerons.otf");
+}

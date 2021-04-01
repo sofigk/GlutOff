@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title> GlutOff</title>
+</head>
+
+<body>
+
+
+
+    <header class="container fondo4  ">
+        <div class="row">
+            <h1 col>Componentes</h1>
+            <nav class="col navbar navbar-expand-md navbar-light fondo4  ">
+
+                <button class="navbar-toggler ml-auto " type="button" data-toggle="collapse" data-target="#barra" aria-controls="barra" aria-expanded="false" aria-label="Menú Hamburguesa">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="barra">
+
+                    <ul class="navbar-nav mx-auto text-center text-md-center">
+
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#home" data-ancla="true" data-tiempo="1000" data-freno="110">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Nuestrapp" data-ancla="true" data-tiempo="1000" data-freno="110">Nuestra App</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Presentacion" data-ancla="true" data-tiempo="1000" data-freno="110">Presentacion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Quienes" data-ancla="true" data-tiempo="1000" data-freno="110">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contacto" data-ancla="true" data-tiempo="1000" data-freno="110">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+
+
+
+    <section id="home" class="container fondo1">
+
+        <article class="row ">
+            <h2 class=" col-12  text-center fondo2 "> Home </h2>
+
+
+
+            <div id="galeria" class="carousel slide col-12 mx-auto" data-ride="carousel">
+
+
+
+                <ol class="carousel-indicators">
+                    <li data-target="#galeria" data-slide-to="0" class="active"></li>
+                    <li data-target="#galeria" data-slide-to="1"></li>
+                    <li data-target="#galeria" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item ">
+                        <picture>
+                             <source media="(max-width: 600px)" srcset="imagenes/banner-c.png">
+                <source media="(max-width: 989px)" srcset="imagenes/banner-m.png">
+                            <img class="d-block w-100" src="imagenes/banner.png" alt="imagen">
+                        </picture>
+                    </div>
+                    <div class="carousel-item active">
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagenes/banner2-c.png">
+                <source media="(max-width: 989px)" srcset="imagenes/banner2-m.png">
+                            <img class="d-block w-100" src="imagenes/banner2.jpg" alt="imagen">
+                        </picture>
+                    </div>
+                    <div class="carousel-item">
+                       <picture>
+                             <source media="(max-width: 600px)" srcset="imagenes/banner3-c.png">
+                <source media="(max-width: 989px)" srcset="imagenes/banner3-m.png">
+                             <img class="d-block w-100" src="imagenes/banner3.jpg" alt="imagen">
+                        </picture>
+                    </div>
+
+                </div>
+
+                <a class="carousel-control-prev" href="#galeria" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+
+                <a class="carousel-control-next" href="#galeria" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        </article>
+
+
+    </section>
+
+
+
+    <section id="Nuestrapp" class="container fondo4 flex-md-column-reverse" >
+
+        <article class="row" data-bottom-top="background-color:rgb(203, 97, 32); " 
+        data-10-center="background-color:rgb(216, 216, 216)">
+
+
+            <h2  class="col-12  text-center fondo3" data-bottom-top="transform: translate(2100px); opacity: 0" 
+          data-center="transform: translate(0px); opacity: 1">Nuestra App</h2>
+
+ 
+                     <figure 
+               data-bottom-center= "opacity: 0"
+               data-center-top= "opacity: 1" class="col-lg-4 text-center">
+                       <picture>
+                   <source media="(max-width: 600px)" srcset="imagenes/telefono-c.png">
+                    <source media="(max-width: 989px)" srcset="imagenes/telefono-m.png">
+                   <img src="imagenes/telefono.png" alt="app" class="img-fluid figure-img">
+               </picture>
+                </figure>
+               
+               
+                <div class="col-lg-8  my-auto"  data-bottom-top="transform: translate(2000px)"
+                    data-center="transform: translate (0px)" >
+                    <p> En esta app podras encontrar una larga y variada lista de productos aptos de todo tipo.</p>
+                    <p> Si no encontras un producto en la lista, la app tambien cuenta con un scaner el cual te asegurara que el producto efectivamente sea apto.</p>
+                    <p> Tambien tiene un mapa interactivo donde te mostrara lugares como restaurantes e incluso locales que cuentan con productos aptos cerca tuyo!</p>
+                    <p> Si preferis cocinar podes encontrar una diversa seleccion de recetas dentro de la app. Además contaras con información personalisada acerca de la vida sin tacc, con datos que hayas completado en su perfil </p>
+                </div>
+          
+
+            
+
+        </article>
+
+    </section>
+
+
+
+    <section id="Presentacion" class="container " 
+        data-bottom="background-5-color: rgb(216, 216, 216)"
+         data-center="background-color:rgb(203, 97, 32);">
+
+        <article class="row fondo1">
+            <h2 id="App" class="col-12  text-center fondo2"
+             data-bottom="transform: translate(-500px)" 
+             data-center="transform: translate(0px)"> Presentacion</h2>
+            
+                <div class="col-lg-6 my-auto"
+                  data-bottom="transform: translate(-500px)" 
+                  data-center="transform: translate(0px)">
+                <p> Deseamos hacer tu experiencia lo mas plasentera! </p>
+                <p>Conoce nuestra app! Mira este video-tour por nuestra app para poder ver todas sus funcionalidades en juegos y poder familiarisarte mas!</p>
+            </div>
+               
+               <figure data-anchor-target="#Presentacion"
+               data-center-top=" opacity: 1"
+               data-bottom-center="opacity: 0"
+                class="col-lg-6   embed-responsive embed-responsive-16by9 ">
+                <video src="imagenes/app.mp4" controls></video>
+            </figure>
+
+           
+
+        </article>
+
+    </section>
+
+
+    <section id="Quienes" class="container fondo4">
+
+        <article class="row" data-bottom-center="background-color:rgb(203, 97, 32); " 
+           data-5-center="background-color:rgb(216, 216, 216) ">
+            <h2 class="col-12 text-center fondo3" data-bottom="transform: translate(500px)" data-center="transform: translate(0px)"> Quienes Somos?</h2>
+
+            <div class="col-12 m-0" data-bottom="transform: translate(500px)" data-center="transform: translate(0px)">
+                <p class="m-0">Somos una entidad civil sin fines de lucro, en la cual decidimos orientar,
+                    brindar apoyo y contención a quienes necesitan asesoramiento sobre este
+                    camino sin TACC.</p>
+                <p>Nuestro objetivo primordial es la solidaridad, comprometiéndonos en
+                    alcanzar una mejor calidad de vida para el beneficio de todos aquellos
+                    que padezcan esta enfermedad.</p>
+            </div>
+
+            <figure class="col-4 text-center" data-center-top=" opacity: 1"
+               data-bottom-center="opacity: 0">
+              <picture>
+                   <source media="(max-width: 600px)" srcset="imagenes/chica1-c.png">
+                <source media="(max-width: 989px)" srcset="imagenes/chica1-m.png">
+                    <img src="imagenes/chica1.png" alt="Samanta" class="img-fluid figure-img rounded-circle mx-auto">
+               </picture>
+                <figcaption class="figcaption"> Laura Ramirez</figcaption>
+            </figure>
+            
+              <figure class="col-4 text-center"  data-center-top=" opacity: 1"
+               data-bottom-center="opacity: 0">
+              <picture>
+                   <source media="(max-width: 600px)" srcset="imagenes/chico-c.png">
+                <source media="(max-width: 989px)" srcset="imagenes/chico-m.png">
+                    <img src="imagenes/chico.png" alt="Samanta" class="img-fluid figure-img rounded-circle mx-auto">
+               </picture>
+                <figcaption class="figcaption">Diego Cuevas</figcaption>
+            </figure>
+            
+            <figure class="col-4 text-center"  data-center-top=" opacity: 1"
+               data-bottom-center="opacity: 0">
+               <picture>
+                  <source media="(max-width: 600px)" srcset="imagenes/chica2-c.png">
+                <source media="(max-width: 989px)" srcset="imagenes/chica2-m.png">
+                   <img src="imagenes/chica2.png" alt="Samanta" class="img-fluid figure-img  rounded-circle">
+               </picture>
+                <figcaption class="figcaption">Luna Aztarbe </figcaption>
+            </figure>
+        </article>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <section id="Contacto" class="container fondo1">
+
+        <article class="row">
+            <h2 class="col-12 text-center fondo2"> Contactanos</h2>
+
+            <form action="enviar_formulario.php" method="post" enctype="application/x-www-form-urlencoded" class="mx-auto">
+
+                <div class="form-group col mx-auto">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" class="form-control">
+                </div>
+
+                <div class="form-group col">
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" name="Apellido" class="form-control">
+                </div>
+
+                <div class="form-group col">
+                    <label for="mail">Email</label>
+                    <input type="email" name="mail" class="form-control">
+                </div>
+
+
+                <div class="form-group col">
+                    <label for="Pregunta">Pregunta</label>
+                    <textarea name="pregunta" class="form-control" cols="30" rows="5"></textarea>
+                </div>
+
+                <div class="col-12">
+
+                    <input type="submit" value="enviar" class="btn btn-success">
+                </div>
+
+
+
+            </form>
+        </article>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/animaScroll.js"></script>
+
+    <script>
+        $('.nav-item').on('click', function() {
+            $(".navbar-collapse").collapse("hide");
+        })
+
+    </script>
+
+    <script src="js/skrollr.js"></script>
+
+      <script>
+        var mobile = 992;
+        var plugin=skrollr.init({forceHeight:false,render:function(data){console.log(data.curTop);}});$(window).resize(function(){redimensionar();});redimensionar();function redimensionar(){var anchoVentana=$(window).width();if(anchoVentana<=mobile-17||screen.width<=mobile){skrollr.init().destroy();}else{var plugin=skrollr.init({forceHeight: false,render: function(data) {console.log(data.curTop);}});}}
+    </script>
+
+</body>
+
+</html>
